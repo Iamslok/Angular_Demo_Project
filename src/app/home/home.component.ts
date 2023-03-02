@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   products  = [
-    {name: "Toy Car", price:100,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
-    {name: "Toy Pen", price:200,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
-    {name: "Toy Bike", price:300,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
-    {name: "Toy motor", price:300,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
+    {id:1,name: "Toy Car", price:100,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
+    {id:2,name: "Toy Pen", price:200,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
+    {id:3,name: "Toy Bike", price:300,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
+    {id:4,name: "Toy motor", price:300,description:'hrewhrwenrwenrjwenrweriweruwermasdk'},
   ]
 
   constructor() { }
